@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6664B95282234B30014887E /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664B94282234B30014887E /* OrderViewController.swift */; };
+		C6B2C06A2829597D0036BED1 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B2C0692829597D0036BED1 /* TVServices.framework */; };
+		C6B2C06D2829597D0036BED1 /* ContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B2C06C2829597D0036BED1 /* ContentProvider.swift */; };
+		C6B2C0712829597D0036BED1 /* PizzaFaves.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C6B2C0672829597D0036BED1 /* PizzaFaves.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C6B2C07C28295A240036BED1 /* ExtraCheesy.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B2C07728295A240036BED1 /* ExtraCheesy.png */; };
+		C6B2C07D28295A240036BED1 /* PepperoniPizza.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B2C07828295A240036BED1 /* PepperoniPizza.png */; };
+		C6B2C07E28295A240036BED1 /* StinkyPizza.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B2C07928295A240036BED1 /* StinkyPizza.png */; };
+		C6B2C07F28295A240036BED1 /* VeggiePizza.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B2C07A28295A240036BED1 /* VeggiePizza.png */; };
+		C6B2C08028295A240036BED1 /* MightyMeaty.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B2C07B28295A240036BED1 /* MightyMeaty.png */; };
+		C6C291672829C6BD008E173B /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C291662829C6BD008E173B /* UITextView.swift */; };
+		C6CB01BF2826F3C400B83946 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CB01BE2826F3C400B83946 /* UIViewController.swift */; };
 		C6F3615128205AF100D77CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3615028205AF100D77CB4 /* AppDelegate.swift */; };
 		C6F3615328205AF100D77CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F3615228205AF100D77CB4 /* ViewController.swift */; };
 		C6F3615628205AF100D77CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F3615428205AF100D77CB4 /* Main.storyboard */; };
 		C6F3615828205AF200D77CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F3615728205AF200D77CB4 /* Assets.xcassets */; };
 		C6F3615B28205AF200D77CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F3615928205AF200D77CB4 /* LaunchScreen.storyboard */; };
+		C6F361632820656A00D77CB4 /* PizzaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F361622820656A00D77CB4 /* PizzaData.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C6B2C06F2829597D0036BED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6F3614528205AF100D77CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B2C0662829597D0036BED1;
+			remoteInfo = PizzaFaves;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6B2C0722829597D0036BED1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C6B2C0712829597D0036BED1 /* PizzaFaves.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C6664B94282234B30014887E /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		C6B2C0672829597D0036BED1 /* PizzaFaves.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PizzaFaves.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B2C0692829597D0036BED1 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		C6B2C06C2829597D0036BED1 /* ContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProvider.swift; sourceTree = "<group>"; };
+		C6B2C06E2829597D0036BED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B2C07728295A240036BED1 /* ExtraCheesy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExtraCheesy.png; sourceTree = "<group>"; };
+		C6B2C07828295A240036BED1 /* PepperoniPizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PepperoniPizza.png; sourceTree = "<group>"; };
+		C6B2C07928295A240036BED1 /* StinkyPizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StinkyPizza.png; sourceTree = "<group>"; };
+		C6B2C07A28295A240036BED1 /* VeggiePizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VeggiePizza.png; sourceTree = "<group>"; };
+		C6B2C07B28295A240036BED1 /* MightyMeaty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MightyMeaty.png; sourceTree = "<group>"; };
+		C6C291662829C6BD008E173B /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		C6CB01BE2826F3C400B83946 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		C6F3614D28205AF100D77CB4 /* RaysPizzaBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaysPizzaBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F3615028205AF100D77CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F3615228205AF100D77CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,9 +70,18 @@
 		C6F3615728205AF200D77CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F3615A28205AF200D77CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6F3615C28205AF200D77CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F361622820656A00D77CB4 /* PizzaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C6B2C0642829597D0036BED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B2C06A2829597D0036BED1 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6F3614A28205AF100D77CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +92,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6B2C0682829597D0036BED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2C0692829597D0036BED1 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B2C06B2829597D0036BED1 /* PizzaFaves */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2C06C2829597D0036BED1 /* ContentProvider.swift */,
+				C6B2C06E2829597D0036BED1 /* Info.plist */,
+				C6B2C07628295A240036BED1 /* Favorites */,
+			);
+			path = PizzaFaves;
+			sourceTree = "<group>";
+		};
+		C6B2C07628295A240036BED1 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2C07728295A240036BED1 /* ExtraCheesy.png */,
+				C6B2C07828295A240036BED1 /* PepperoniPizza.png */,
+				C6B2C07928295A240036BED1 /* StinkyPizza.png */,
+				C6B2C07A28295A240036BED1 /* VeggiePizza.png */,
+				C6B2C07B28295A240036BED1 /* MightyMeaty.png */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		C6CB01BD2826F3A600B83946 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6CB01BE2826F3C400B83946 /* UIViewController.swift */,
+				C6C291662829C6BD008E173B /* UITextView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C6F3614428205AF100D77CB4 = {
 			isa = PBXGroup;
 			children = (
 				C6F3614F28205AF100D77CB4 /* RaysPizzaBuilder */,
+				C6B2C06B2829597D0036BED1 /* PizzaFaves */,
+				C6B2C0682829597D0036BED1 /* Frameworks */,
 				C6F3614E28205AF100D77CB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				C6F3614D28205AF100D77CB4 /* RaysPizzaBuilder.app */,
+				C6B2C0672829597D0036BED1 /* PizzaFaves.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +153,15 @@
 		C6F3614F28205AF100D77CB4 /* RaysPizzaBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				C6CB01BD2826F3A600B83946 /* Extensions */,
 				C6F3615028205AF100D77CB4 /* AppDelegate.swift */,
 				C6F3615228205AF100D77CB4 /* ViewController.swift */,
 				C6F3615428205AF100D77CB4 /* Main.storyboard */,
 				C6F3615728205AF200D77CB4 /* Assets.xcassets */,
 				C6F3615928205AF200D77CB4 /* LaunchScreen.storyboard */,
 				C6F3615C28205AF200D77CB4 /* Info.plist */,
+				C6F361622820656A00D77CB4 /* PizzaData.swift */,
+				C6664B94282234B30014887E /* OrderViewController.swift */,
 			);
 			path = RaysPizzaBuilder;
 			sourceTree = "<group>";
@@ -67,6 +169,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C6B2C0662829597D0036BED1 /* PizzaFaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B2C0752829597D0036BED1 /* Build configuration list for PBXNativeTarget "PizzaFaves" */;
+			buildPhases = (
+				C6B2C0632829597D0036BED1 /* Sources */,
+				C6B2C0642829597D0036BED1 /* Frameworks */,
+				C6B2C0652829597D0036BED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaFaves;
+			productName = PizzaFaves;
+			productReference = C6B2C0672829597D0036BED1 /* PizzaFaves.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C6F3614C28205AF100D77CB4 /* RaysPizzaBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F3615F28205AF200D77CB4 /* Build configuration list for PBXNativeTarget "RaysPizzaBuilder" */;
@@ -74,10 +193,12 @@
 				C6F3614928205AF100D77CB4 /* Sources */,
 				C6F3614A28205AF100D77CB4 /* Frameworks */,
 				C6F3614B28205AF100D77CB4 /* Resources */,
+				C6B2C0722829597D0036BED1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C6B2C0702829597D0036BED1 /* PBXTargetDependency */,
 			);
 			name = RaysPizzaBuilder;
 			productName = RaysPizzaBuilder;
@@ -93,6 +214,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					C6B2C0662829597D0036BED1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					C6F3614C28205AF100D77CB4 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -112,11 +236,24 @@
 			projectRoot = "";
 			targets = (
 				C6F3614C28205AF100D77CB4 /* RaysPizzaBuilder */,
+				C6B2C0662829597D0036BED1 /* PizzaFaves */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C6B2C0652829597D0036BED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B2C07C28295A240036BED1 /* ExtraCheesy.png in Resources */,
+				C6B2C07D28295A240036BED1 /* PepperoniPizza.png in Resources */,
+				C6B2C07E28295A240036BED1 /* StinkyPizza.png in Resources */,
+				C6B2C08028295A240036BED1 /* MightyMeaty.png in Resources */,
+				C6B2C07F28295A240036BED1 /* VeggiePizza.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6F3614B28205AF100D77CB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,16 +267,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C6B2C0632829597D0036BED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B2C06D2829597D0036BED1 /* ContentProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C6F3614928205AF100D77CB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F361632820656A00D77CB4 /* PizzaData.swift in Sources */,
+				C6C291672829C6BD008E173B /* UITextView.swift in Sources */,
 				C6F3615328205AF100D77CB4 /* ViewController.swift in Sources */,
 				C6F3615128205AF100D77CB4 /* AppDelegate.swift in Sources */,
+				C6664B95282234B30014887E /* OrderViewController.swift in Sources */,
+				C6CB01BF2826F3C400B83946 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B2C0702829597D0036BED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B2C0662829597D0036BED1 /* PizzaFaves */;
+			targetProxy = C6B2C06F2829597D0036BED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C6F3615428205AF100D77CB4 /* Main.storyboard */ = {
@@ -161,6 +318,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C6B2C0732829597D0036BED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RAZ6KH849;
+				INFOPLIST_FILE = PizzaFaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.julian.RaysPizzaBuilder.PizzaFaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C6B2C0742829597D0036BED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RAZ6KH849;
+				INFOPLIST_FILE = PizzaFaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.julian.RaysPizzaBuilder.PizzaFaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
 		C6F3615D28205AF200D77CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +475,7 @@
 		C6F3616028205AF200D77CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +495,7 @@
 		C6F3616128205AF200D77CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -318,6 +515,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C6B2C0752829597D0036BED1 /* Build configuration list for PBXNativeTarget "PizzaFaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B2C0732829597D0036BED1 /* Debug */,
+				C6B2C0742829597D0036BED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C6F3614828205AF100D77CB4 /* Build configuration list for PBXProject "RaysPizzaBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
